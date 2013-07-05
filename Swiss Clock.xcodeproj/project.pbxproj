@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4F7F7141787039E009B33ED /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4F7F7131787039E009B33ED /* Cocoa.framework */; };
+		D4F7F71E1787039E009B33ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D4F7F71C1787039E009B33ED /* InfoPlist.strings */; };
+		D4F7F7201787039E009B33ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F7F71F1787039E009B33ED /* main.m */; };
+		D4F7F7241787039E009B33ED /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D4F7F7221787039E009B33ED /* Credits.rtf */; };
+		D4F7F7271787039E009B33ED /* SCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F7F7261787039E009B33ED /* SCAppDelegate.m */; };
+		D4F7F72A1787039E009B33ED /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4F7F7281787039E009B33ED /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D4F7F7101787039E009B33ED /* Swiss Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swiss Clock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4F7F7131787039E009B33ED /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D4F7F7161787039E009B33ED /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D4F7F7171787039E009B33ED /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D4F7F7181787039E009B33ED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D4F7F71B1787039E009B33ED /* Swiss Clock-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Swiss Clock-Info.plist"; sourceTree = "<group>"; };
+		D4F7F71D1787039E009B33ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D4F7F71F1787039E009B33ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D4F7F7211787039E009B33ED /* Swiss Clock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Swiss Clock-Prefix.pch"; sourceTree = "<group>"; };
+		D4F7F7231787039E009B33ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		D4F7F7251787039E009B33ED /* SCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCAppDelegate.h; sourceTree = "<group>"; };
+		D4F7F7261787039E009B33ED /* SCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCAppDelegate.m; sourceTree = "<group>"; };
+		D4F7F7291787039E009B33ED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4F7F70D1787039E009B33ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4F7F7141787039E009B33ED /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4F7F7071787039E009B33ED = {
+			isa = PBXGroup;
+			children = (
+				D4F7F7191787039E009B33ED /* Swiss Clock */,
+				D4F7F7121787039E009B33ED /* Frameworks */,
+				D4F7F7111787039E009B33ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4F7F7111787039E009B33ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4F7F7101787039E009B33ED /* Swiss Clock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4F7F7121787039E009B33ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4F7F7131787039E009B33ED /* Cocoa.framework */,
+				D4F7F7151787039E009B33ED /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4F7F7151787039E009B33ED /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4F7F7161787039E009B33ED /* AppKit.framework */,
+				D4F7F7171787039E009B33ED /* CoreData.framework */,
+				D4F7F7181787039E009B33ED /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		D4F7F7191787039E009B33ED /* Swiss Clock */ = {
+			isa = PBXGroup;
+			children = (
+				D4F7F7251787039E009B33ED /* SCAppDelegate.h */,
+				D4F7F7261787039E009B33ED /* SCAppDelegate.m */,
+				D4F7F7281787039E009B33ED /* MainMenu.xib */,
+				D4F7F71A1787039E009B33ED /* Supporting Files */,
+			);
+			path = "Swiss Clock";
+			sourceTree = "<group>";
+		};
+		D4F7F71A1787039E009B33ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4F7F71B1787039E009B33ED /* Swiss Clock-Info.plist */,
+				D4F7F71C1787039E009B33ED /* InfoPlist.strings */,
+				D4F7F71F1787039E009B33ED /* main.m */,
+				D4F7F7211787039E009B33ED /* Swiss Clock-Prefix.pch */,
+				D4F7F7221787039E009B33ED /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4F7F70F1787039E009B33ED /* Swiss Clock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4F7F72D1787039E009B33ED /* Build configuration list for PBXNativeTarget "Swiss Clock" */;
+			buildPhases = (
+				D4F7F70C1787039E009B33ED /* Sources */,
+				D4F7F70D1787039E009B33ED /* Frameworks */,
+				D4F7F70E1787039E009B33ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swiss Clock";
+			productName = "Swiss Clock";
+			productReference = D4F7F7101787039E009B33ED /* Swiss Clock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4F7F7081787039E009B33ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SC;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Skyler;
+			};
+			buildConfigurationList = D4F7F70B1787039E009B33ED /* Build configuration list for PBXProject "Swiss Clock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D4F7F7071787039E009B33ED;
+			productRefGroup = D4F7F7111787039E009B33ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4F7F70F1787039E009B33ED /* Swiss Clock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4F7F70E1787039E009B33ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4F7F71E1787039E009B33ED /* InfoPlist.strings in Resources */,
+				D4F7F7241787039E009B33ED /* Credits.rtf in Resources */,
+				D4F7F72A1787039E009B33ED /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4F7F70C1787039E009B33ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4F7F7201787039E009B33ED /* main.m in Sources */,
+				D4F7F7271787039E009B33ED /* SCAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D4F7F71C1787039E009B33ED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4F7F71D1787039E009B33ED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D4F7F7221787039E009B33ED /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4F7F7231787039E009B33ED /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		D4F7F7281787039E009B33ED /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4F7F7291787039E009B33ED /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4F7F72B1787039E009B33ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D4F7F72C1787039E009B33ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D4F7F72E1787039E009B33ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Swiss Clock/Swiss Clock-Prefix.pch";
+				INFOPLIST_FILE = "Swiss Clock/Swiss Clock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D4F7F72F1787039E009B33ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Swiss Clock/Swiss Clock-Prefix.pch";
+				INFOPLIST_FILE = "Swiss Clock/Swiss Clock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4F7F70B1787039E009B33ED /* Build configuration list for PBXProject "Swiss Clock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4F7F72B1787039E009B33ED /* Debug */,
+				D4F7F72C1787039E009B33ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4F7F72D1787039E009B33ED /* Build configuration list for PBXNativeTarget "Swiss Clock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4F7F72E1787039E009B33ED /* Debug */,
+				D4F7F72F1787039E009B33ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4F7F7081787039E009B33ED /* Project object */;
+}

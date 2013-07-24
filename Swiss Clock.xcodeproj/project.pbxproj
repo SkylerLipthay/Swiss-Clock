@@ -10,9 +10,9 @@
 		D4F7F7141787039E009B33ED /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4F7F7131787039E009B33ED /* Cocoa.framework */; };
 		D4F7F71E1787039E009B33ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D4F7F71C1787039E009B33ED /* InfoPlist.strings */; };
 		D4F7F7201787039E009B33ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F7F71F1787039E009B33ED /* main.m */; };
-		D4F7F7241787039E009B33ED /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D4F7F7221787039E009B33ED /* Credits.rtf */; };
 		D4F7F7271787039E009B33ED /* SCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F7F7261787039E009B33ED /* SCAppDelegate.m */; };
 		D4F7F72A1787039E009B33ED /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4F7F7281787039E009B33ED /* MainMenu.xib */; };
+		D4F7F73517870529009B33ED /* SCClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F7F73417870529009B33ED /* SCClockView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,10 +25,11 @@
 		D4F7F71D1787039E009B33ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D4F7F71F1787039E009B33ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D4F7F7211787039E009B33ED /* Swiss Clock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Swiss Clock-Prefix.pch"; sourceTree = "<group>"; };
-		D4F7F7231787039E009B33ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		D4F7F7251787039E009B33ED /* SCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCAppDelegate.h; sourceTree = "<group>"; };
 		D4F7F7261787039E009B33ED /* SCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCAppDelegate.m; sourceTree = "<group>"; };
 		D4F7F7291787039E009B33ED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D4F7F73317870529009B33ED /* SCClockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCClockView.h; sourceTree = "<group>"; };
+		D4F7F73417870529009B33ED /* SCClockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCClockView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +83,8 @@
 		D4F7F7191787039E009B33ED /* Swiss Clock */ = {
 			isa = PBXGroup;
 			children = (
+				D4F7F73317870529009B33ED /* SCClockView.h */,
+				D4F7F73417870529009B33ED /* SCClockView.m */,
 				D4F7F7251787039E009B33ED /* SCAppDelegate.h */,
 				D4F7F7261787039E009B33ED /* SCAppDelegate.m */,
 				D4F7F7281787039E009B33ED /* MainMenu.xib */,
@@ -97,7 +100,6 @@
 				D4F7F71C1787039E009B33ED /* InfoPlist.strings */,
 				D4F7F71F1787039E009B33ED /* main.m */,
 				D4F7F7211787039E009B33ED /* Swiss Clock-Prefix.pch */,
-				D4F7F7221787039E009B33ED /* Credits.rtf */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -155,7 +157,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4F7F71E1787039E009B33ED /* InfoPlist.strings in Resources */,
-				D4F7F7241787039E009B33ED /* Credits.rtf in Resources */,
 				D4F7F72A1787039E009B33ED /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -169,6 +170,7 @@
 			files = (
 				D4F7F7201787039E009B33ED /* main.m in Sources */,
 				D4F7F7271787039E009B33ED /* SCAppDelegate.m in Sources */,
+				D4F7F73517870529009B33ED /* SCClockView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,14 +183,6 @@
 				D4F7F71D1787039E009B33ED /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		D4F7F7221787039E009B33ED /* Credits.rtf */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D4F7F7231787039E009B33ED /* en */,
-			);
-			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
 		D4F7F7281787039E009B33ED /* MainMenu.xib */ = {
@@ -302,6 +296,7 @@
 				D4F7F72F1787039E009B33ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

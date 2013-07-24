@@ -1,5 +1,5 @@
 //
-//  main.m
+//  SCClockView.h
 //  Swiss Clock
 //
 //  Created by Skyler on 7/5/13.
@@ -8,6 +8,9 @@
 
 #import <Cocoa/Cocoa.h>
 
-int main(int argc, char *argv[]) {
-  return NSApplicationMain(argc, (const char **)argv);
+@interface SCClockView : NSView {
+ @private
+  NSTimer *_timer;
 }
+
+@end
